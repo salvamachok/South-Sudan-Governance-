@@ -1,0 +1,6 @@
+{
+  "name": "South Sudan Parliamentary & Administrative Portal",
+  "description": "Comprehensive explorer of the National Legislative Assembly (TNLA), Council of States, State Legislative Assemblies (SLA), 10 States, 3 Special Administrative Areas, Counties, Payams, and Bomas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
