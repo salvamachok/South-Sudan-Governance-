@@ -1,0 +1,13 @@
+South Sudan Administrative Registry (Streamlit)
+This folder contains a Streamlit data explorer intended to live alongside the existing React/Vite website.
+Files
+streamlit_app.py — searchable registry interface, filters, summary metrics and CSV downloads.
+requirements.txt — Python dependencies for Streamlit Community Cloud.
+data/south_sudan_states_counties_payams_registry_cleaned_2026-10-25.csv — cleaned registry dataset (178 rows).
+Run locally
+python -m pip install -r requirements.txt
+streamlit run streamlit_app.py
+Deploy
+After committing these files to the existing GitHub repository, open Streamlit Community Cloud and create a new app pointing to that repository, selecting streamlit_app.py as the entrypoint. This is a separate Streamlit deployment; it does not replace the current React website.
+Data note
+The dataset is a working reference. Structural checks do not independently confirm current legal status, boundaries or office holders. Verify those details against authoritative South Sudan government sources before relying on them for official decisions.
